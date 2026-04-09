@@ -1,0 +1,38 @@
+# IntelliJ / IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+dist/
+build/
+
+# Frontend env
+frontend/.env
+frontend/.env.*
+
+# Backend
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Java
+*.class
+
+# Logs
+*.log
+logs/
+
+# Env files
+.env
+.env.*
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
