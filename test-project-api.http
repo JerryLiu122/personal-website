@@ -1,0 +1,17 @@
+### Create project without auth - should return 401
+POST http://localhost:8080/api/projects
+Content-Type: application/json
+
+{
+  "title": "Unauthorized Test Project",
+  "slug": "unauthorized-test-project",
+  "summary": "This should fail without auth",
+  "description": "Testing protected POST endpoint",
+  "techStack": "React, Spring Boot, PostgreSQL",
+  "projectUrl": "",
+  "githubUrl": "",
+  "imageUrl": "",
+  "featured": false,
+  "displayOrder": 99,
+  "status": "DRAFT"
+}
